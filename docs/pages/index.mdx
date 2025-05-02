@@ -1,0 +1,19 @@
+---
+layout: landing
+showLogo: false
+---
+
+import { HomePage } from 'vocs/components'
+
+<HomePage.Root>
+  <HomePage.Logo/>
+  <HomePage.Tagline>A hobbyist's guide</HomePage.Tagline>
+  <HomePage.InstallPackage name="@daydreamsai/core" type="InstallPackage" />
+  <HomePage.Description>This documentation provides high-level, user-centric explanations for the core components of the
+Daydreams framework, focusing on how and why you might use them in your
+projects.</HomePage.Description>
+  <HomePage.Buttons>
+    <HomePage.Button href="/getting-started" variant="accent">Get started</HomePage.Button>
+    <HomePage.Button href="https://github.com/daydreamsai/daydreams">GitHub</HomePage.Button>
+  </HomePage.Buttons>
+</HomePage.Root>
