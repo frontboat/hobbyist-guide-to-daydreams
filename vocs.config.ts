@@ -1,6 +1,9 @@
 import { defineConfig } from 'vocs'
 
 export default defineConfig({
+  theme: {
+    colorScheme: 'dark',
+  },
   logoUrl: '/daydreams.svg',
   sidebar: [
     {
